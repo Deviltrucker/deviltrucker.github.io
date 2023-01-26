@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+   background-image: url("imagenes/black-panther.png");
+   background-size: cover;
+}
+
+h1{
+  text-align: start;
+  font-style: italic;
+}
+
+
+
+img {
+  width: 480px;
+  height: 480px;
+}
+
+#imdb {
+  border-color: black;
+  border-style: dashed;
+  width: 20%;
+  height: 20%;
+}
+
+
+@media only screen and (min-width: 600px) {
+  
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  p {
+    padding:30px;
+    margin: auto; 
+  }
+
+  
+
+
+}
+
+#footer {
+  font-size: small;
+
+}
